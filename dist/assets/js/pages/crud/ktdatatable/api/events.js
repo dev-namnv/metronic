@@ -13,7 +13,7 @@ var KTDefaultDatatableDemo = function() {
 				type: 'remote',
 				source: {
 					read: {
-						url: 'http://citytour.local/api_v1/tour/list',
+						url: HOST_URL + '/api/datatables/demos/default.php',
 					},
 				},
 				pageSize: 5, // display 20 records per page
